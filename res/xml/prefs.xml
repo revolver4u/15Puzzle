@@ -1,0 +1,34 @@
+<PreferenceScreen
+xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory
+	    android:title="@string/prefs_gameplay_title"
+	    android:key="prefs_gameplay">
+		<ListPreference 
+		    android:key="difficulty"
+		    android:title="@string/difficulty_title"
+		    android:summary="@string/difficulty_summary"
+		    android:entries="@array/difficulty_array"
+		    android:entryValues="@array/difficulty_array_values"/>
+		<ListPreference
+		    android:key="view"
+		    android:title="@string/view_title"
+		    android:summary="@string/view_summary"
+		    android:entries="@array/view_array"
+		    android:entryValues="@array/view_array_values"/>
+	</PreferenceCategory>
+	<PreferenceCategory 
+	    android:title="@string/prefs_other_title"
+	    android:key="prefs_other">
+		<CheckBoxPreference
+			android:key="music"
+			android:title="@string/music_title"
+			android:summary="@string/music_summary"
+			android:defaultValue="true" />
+		<CheckBoxPreference
+			android:key="sound"
+			android:title="@string/sound_title"
+			android:summary="@string/sound_summary"
+			android:defaultValue="true" />
+	</PreferenceCategory>
+	
+</PreferenceScreen>

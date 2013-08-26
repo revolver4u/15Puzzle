@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="difficulty_array">
+		<item>@string/easy_label</item>
+		<item>@string/medium_label</item>
+		<item>@string/hard_label</item>
+	</string-array>
+	<string-array name="difficulty_array_values">
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+	</string-array>
+	<string-array name="view_array">
+	    <item>@string/classic_view</item>
+		<item>@string/moscow_view</item>
+		<item>@string/beauty_view</item>
+		<item>@string/custom_view</item>
+	</string-array>
+	<string-array name="view_array_values">
+	   <item>classic</item>
+	   <item>moscow</item>
+	   <item>beauty</item>
+	   <item>custom</item>
+	</string-array>
+</resources>
